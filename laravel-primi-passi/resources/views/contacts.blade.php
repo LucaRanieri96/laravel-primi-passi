@@ -21,7 +21,7 @@
       </nav>
     </header>
     <main>
-      <h2>Questa è la Homepage</h2>
+        <h2>Questa è la Contact page</h2>
     </main>
 </body>
 
@@ -33,7 +33,6 @@
     padding: 0;
     box-sizing: border-box;
   }
-
   body{
     color: white;
     background-color: #161616;
