@@ -21,7 +21,7 @@
         </nav>
     </header>
     <main>
-        <h2>Questa è la About page</h2>
+        <h2>{{$message}}</h2>
     </main>
 </body>
 
@@ -61,6 +61,7 @@
     ul li a {
         text-decoration: none;
         color: white;
+        font-size: 20px;
     }
 
     h2 {
