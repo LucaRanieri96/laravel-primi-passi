@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>HomePage</title>
+    <title>Laravel @yield('title', 'Welcome')</title>
 </head>
 
 <body>
@@ -13,8 +13,10 @@
   @include('partials.header')
    
     <main>
-      <h2>{{$message}}</h2>
+      @yield('content')
     </main>
+
+    @include('footer')
 </body>
 
 </html>

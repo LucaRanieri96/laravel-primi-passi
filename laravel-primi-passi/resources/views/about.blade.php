@@ -9,19 +9,9 @@
 </head>
 
 <body>
-    <header>
-        <nav>
-            <h1>NAVIGATION</h1>
-
-            <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="about">About</a></li>
-                <li><a href="contacts">Contacts</a></li>
-            </ul>
-        </nav>
-    </header>
+  @include('partials.header')
     <main>
-        <h2>{{$message}}</h2>
+        <h2>{{ $message }}</h2>
     </main>
 </body>
 
